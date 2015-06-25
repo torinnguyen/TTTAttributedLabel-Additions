@@ -41,8 +41,7 @@ self.myTTTLabel.text = nil;
 [self.myTTTLabel modifyText:@"blue"
                    withFont:[UIFont systemFontOfSize:20]
                       color:[UIColor purpleColor];
-
-``` objective-c
+```
 
 ## License
 Do whatever you want with it.
