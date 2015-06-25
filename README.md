@@ -1,8 +1,9 @@
 # TTTAttributedLabel-Additions
-Make it easier to use TTTAttributedLabel. No more NSRange and all those weird block syntax
+Make it easier to use [TTTAttributedLabel](https://github.com/TTTAttributedLabel/TTTAttributedLabel) library. No more NSRange, CTFontRef, NSMutableAttributedString and all those weird configuration block syntax.
 
 ## Usage
 Assuming you have a *myTTTLabel* initialized elsewhere in your code or in Interface Builder.
+
 TTTAttributedLabel *myTTTLabel = ....
 
 ``` objective-c
@@ -42,3 +43,6 @@ self.myTTTLabel.text = nil;
                       color:[UIColor purpleColor];
 
 ``` objective-c
+
+## License
+Do whatever you want with it.
