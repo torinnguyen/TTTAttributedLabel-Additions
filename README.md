@@ -32,11 +32,11 @@ self.myTTTLabel.text = nil;
                         withText:@"This is a link."
                        alignment:NSTextAlignmentLeft];
 
-//Modify "bigger" with a link
+//Linking "red and big" to a website
 [self.myTTTLabel addLinkToUrl:@"http://en.red-dot.org/2026.html"
                      withText:@"red and big"];
 
-//Change the font of existing text
+//Change the font of existing substring within current text
 [self.myTTTLabel modifyText:@"blue"
                    withFont:[UIFont systemFontOfSize:20]
                       color:[UIColor purpleColor];
